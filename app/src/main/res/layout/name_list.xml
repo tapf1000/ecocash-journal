@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/nameLayout"
+    android:layout_marginBottom="0dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="11dp"
+        android:background="#8fc7bd"
+        android:text="Nothing To Show Here!!!"
+        android:textAlignment="center"
+        android:textColorLink="@color/nameText"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toEndOf="@+id/textViewName"
+        android:layout_toRightOf="@+id/textViewName"
+        android:src="@drawable/ic_fwd" />
+
+
+
+</RelativeLayout>
